@@ -16,7 +16,7 @@ class Motor {
     }
     
     public void asignarTipo(String tipo) {
-        String[] tipos = {"electricos", "gasolina"};
+        String[] tipos = {"electrico", "gasolina"};
         for (String t : tipos) {
             if (t.equals(tipo)) {
                 this.tipo = tipo;

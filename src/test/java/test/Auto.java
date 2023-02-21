@@ -3,13 +3,13 @@ package test;
 public class Auto {
     static int cantidadCreados = 0;
     String modelo;
-    double precio;
+    int precio;
     Asiento[] asientos;
     String marca;
     Motor motor;
     int registro;
     
-    public Auto(String modelo, double precio, Asiento[] asientos, String marca, Motor motor, int registro) {
+    public Auto(String modelo, int precio, Asiento[] asientos, String marca, Motor motor, int registro) {
         this.modelo = modelo;
         this.precio = precio;
         this.asientos = asientos;

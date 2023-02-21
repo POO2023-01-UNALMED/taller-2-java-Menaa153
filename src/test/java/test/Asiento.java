@@ -2,10 +2,10 @@ package test;
 
 class Asiento {
     String color;
-    double precio;
+    int precio;
     int registro;
     
-    public Asiento(String color, double precio, int registro) {
+    public Asiento(String color, int precio, int registro) {
         this.color = color;
         this.precio = precio;
         this.registro = registro;
